@@ -1,0 +1,194 @@
+@import url("Reset.css");
+
+body{
+min-width:1000px;
+max-width:1000px;
+background:#DEDEDE;
+margin:0 auto;
+padding:0px;
+}
+
+#allcontent{
+background:#fff;
+-webkit-box-shadow: 0px 9px 16px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 9px 16px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 9px 16px rgba(50, 50, 50, 0.75);
+margin-bottom:30px;
+padding-top:20px;
+border-bottom-left-radius:8px;
+border-bottom-right-radius:8px;
+}
+
+#navbanner{
+background:url('../images/ban2.png') no-repeat 0px 130px;
+height:140px;
+}
+
+img#logo{
+width:250px;
+height:120px;
+margin-left:20px;
+float:left;
+}
+
+img#logo:after{
+clear:both;
+content:"";
+display:block;
+}
+
+ul#nav{
+list-style:none;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:1em;
+font-weight:600;
+list-style:none;
+width:auto;
+}
+
+ul#nav:after{
+clear:both;
+content:"";
+display:block;
+}
+
+ul#nav a{
+border:1px solid #aaa;
+border-radius:10px;
+padding-top:40px;
+padding-bottom:42px;
+margin-right:3px;
+padding-left:14px;
+padding-right:14px;
+margin-right:3px;
+text-decoration:none;
+color:#AF2DFA;
+text-align:center;
+}
+
+ul#nav li{
+display:inline-block;
+margin-top:50px;
+margin-right:10px;
+}
+
+ul#nav a#homelink{
+padding-left:30px;
+padding-right:30px;
+}
+
+ul#nav a#contactlink{
+padding-left:25px;
+padding-right:25px;
+}
+ul#nav a#moduleslink{
+padding-left:20px;
+padding-right:20px;
+}
+
+ul#nav #assignmentlink{
+background:#F2F2F2;
+}
+
+ul#nav a:hover{
+background:#E4D5F2;
+box-shadow:0px 0px 16px  rgba(50, 50, 50, 0.75);
+transition: background 1s, box-shadow 1s, color 2s;
+-moz-transition: background 1s, box-shadow 1s , color 2s; /* Firefox 4 */
+-webkit-transition:background 1s, box-shadow 1s , color 2s; /* Safari and Chrome */
+-o-transition: background 1s, box-shadow 1s , color 2s; /* Opera */
+padding-left:14px;
+padding-right:14px;
+border:1px solid#aaa;
+border-radius: 10px;
+color:#4F4F4F;
+}
+
+ul#nav a:active{
+background:#F2F2F2;
+border:0px solid#000;
+padding-left:10px;
+padding-right:10px;
+box-shadow:0px 0px 8px  rgba(50, 50, 50, 0.75);
+}
+
+ul#nav a:active li{
+color:#000;
+}
+
+/* TOP NAV END */
+
+
+
+
+/* MAIN CONTENT START */
+
+#maincontent{
+	background: url("spotlight.png") no-repeat;
+	background-size:1000px, 530px;
+	padding-top:30px;
+	width:1000px;
+	height:510px;
+}
+
+embed{
+	margin:0px auto;
+	display:block;
+	width:700px;
+	height:500px;
+}
+
+
+
+
+/* MAIN CONTENT END */ 
+
+
+
+
+.footer{
+width:100%;
+margin-left:10px;
+margin-right:10px;
+margin-top:15px;
+padding-top:20px;
+float:left;
+margin-bottom:20px;
+background: url('../images/ban2bot.png') no-repeat 0px -10px;
+text-align:center;
+}
+
+.footer:after{
+clear:both;
+content:"";
+display:block;
+}
+
+.footer img{
+width:30px;
+height:30px;
+display:inline-block;
+vertical-align:middle;
+}
+
+.hr-side{
+margin:0;
+margin-bottom:7px;
+margin-top:5px;
+width:90%;
+margin-left:auto;
+margin-right:auto;
+}
+
+.hr-breaker{
+width:90%;
+margin:0 55px;
+margin-bottom:20px;
+}
+
+
+div.clear{
+clear:both;
+}
+
+
